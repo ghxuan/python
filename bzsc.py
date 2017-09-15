@@ -23,7 +23,8 @@ def get_aid(url):
 	return ur
 
 def main():
-	url1='https://api.bilibili.com/x/v2/fav/video?vmid=22503107&ps=30&fid=22505152&tid=0&keyword=&pn='
+	#url1会暴露身份，如何获取网址在readme的gif中
+	url1=''
 	url2='&order=fav_time&jsonp=jsonp&callback=_jsonpxg70odvp4m'
 	for i in range(31):
 		#i+1是页数,31是全部页数
