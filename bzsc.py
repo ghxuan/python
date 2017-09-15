@@ -23,7 +23,7 @@ def get_aid(url):
 	return ur
 
 def main():
-	#url1会暴露身份，如何获取网址在readme的gif中
+	#url1会暴露身份，获取网址在readme的gif中
 	url1=''
 	url2='&order=fav_time&jsonp=jsonp&callback=_jsonpxg70odvp4m'
 	for i in range(31):
